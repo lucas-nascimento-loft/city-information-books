@@ -1,0 +1,15 @@
+nome_variavel,descricao
+codigo_ibge,"Código IBGE de 7 dígitos do município, utilizado como chave principal para cruzamento com outras bases municipais."
+ano,Ano de referência da informação da RAIS.
+sigla_uf_origem,Sigla da Unidade da Federação conforme veio na base original da RAIS.
+nome_municipio_origem,Nome do município conforme veio na base original da RAIS.
+qtd_vinculos_rais,"Quantidade total de vínculos registrados na RAIS para o município no ano de referência, considerando vínculos ativos e não necessariamente ativos em 31/12."
+qtd_vinculos_ativos_3112,Quantidade de vínculos empregatícios ativos em 31 de dezembro do ano de referência.
+remuneracao_media,Remuneração média dos vínculos formais no município no ano de referência.
+massa_remuneracao_media,"Soma da remuneração média dos vínculos formais no município, usada como proxy de massa salarial formal agregada."
+qtd_vinculos_ativos_comercio_servicos,Quantidade de vínculos ativos em 31/12 nos setores de comércio e serviços.
+qtd_vinculos_ativos_industria_construcao,Quantidade de vínculos ativos em 31/12 nos setores de indústria e construção.
+qtd_vinculos_ativos_agro,Quantidade de vínculos ativos em 31/12 no setor agropecuário.
+share_vinculos_comercio_servicos,Participação dos vínculos ativos de comércio e serviços sobre o total de vínculos ativos em 31/12.
+share_vinculos_industria_construcao,Participação dos vínculos ativos de indústria e construção sobre o total de vínculos ativos em 31/12.
+share_vinculos_agro,Participação dos vínculos ativos do setor agropecuário sobre o total de vínculos ativos em 31/12.

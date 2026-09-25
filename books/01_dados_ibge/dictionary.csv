@@ -1,0 +1,128 @@
+nome_variavel,descricao
+codigo_ibge,"Código IBGE de 7 dígitos do município, utilizado como chave principal de cruzamento entre bases municipais."
+ano,"Ano-base da linha da ABT, fixado em 2022."
+municipio,Nome oficial do município conforme dimensão municipal do IBGE.
+uf,Sigla da Unidade da Federação do município.
+nome_uf,Nome da Unidade da Federação do município.
+regiao,Nome da grande região brasileira do município.
+sigla_regiao,Sigla da grande região brasileira do município.
+regiao_imediata,"Nome da Região Geográfica Imediata do município, conforme divisão regional do IBGE."
+regiao_intermediaria,"Nome da Região Geográfica Intermediária do município, conforme divisão regional do IBGE."
+populacao_censo_2022,População residente do município no Censo Demográfico 2022.
+populacao_censo_2010,População residente do município no Censo Demográfico 2010.
+crescimento_populacao_censo_2010_2022,"Crescimento populacional acumulado entre o Censo 2010 e o Censo 2022, calculado como populacao_censo_2022 / populacao_censo_2010 - 1."
+cagr_populacao_censo_2010_2022,"Taxa média anual composta de crescimento populacional entre 2010 e 2022, calculada como (populacao_censo_2022 / populacao_censo_2010)^(1/12) - 1."
+pib_corrente,"PIB municipal corrente com ano de referência 2023, na unidade monetária original da fonte SIDRA/IBGE."
+municipio_sidra,Nome do município conforme retornado pela consulta SIDRA/IBGE.
+pib_corrente_lag_1y,"PIB municipal corrente defasado em 1 ano na série histórica; para referência 2023, corresponde ao PIB de 2022."
+pib_corrente_lag_2y,"PIB municipal corrente defasado em 2 anos na série histórica; para referência 2023, corresponde ao PIB de 2021."
+pib_corrente_lag_3y,"PIB municipal corrente defasado em 3 anos na série histórica; para referência 2023, corresponde ao PIB de 2020."
+pib_corrente_var_abs_1y,"Variação absoluta do PIB municipal corrente em relação ao ano anterior, calculada como PIB de 2023 menos PIB de 2022."
+pib_corrente_var_abs_2y,"Variação absoluta do PIB municipal corrente em relação a dois anos antes, calculada como PIB de 2023 menos PIB de 2021."
+pib_corrente_var_abs_3y,"Variação absoluta do PIB municipal corrente em relação a três anos antes, calculada como PIB de 2023 menos PIB de 2020."
+pib_corrente_crescimento_1y,"Taxa de crescimento do PIB municipal corrente em relação ao ano anterior, calculada como PIB de 2023 / PIB de 2022 - 1."
+pib_corrente_crescimento_2y_acumulado,"Crescimento acumulado do PIB municipal corrente em dois anos, calculado como PIB de 2023 / PIB de 2021 - 1."
+pib_corrente_crescimento_3y_acumulado,"Crescimento acumulado do PIB municipal corrente em três anos, calculado como PIB de 2023 / PIB de 2020 - 1."
+pib_corrente_cagr_2y,"Taxa média anual composta de crescimento do PIB municipal corrente em dois anos, entre 2021 e 2023."
+pib_corrente_cagr_3y,"Taxa média anual composta de crescimento do PIB municipal corrente em três anos, entre 2020 e 2023."
+log_pib_corrente,Logaritmo natural do PIB municipal corrente de referência 2023.
+pib_corrente_delta_log_1y,Variação logarítmica do PIB municipal corrente em relação ao ano anterior; aproxima a taxa de crescimento contínua entre 2022 e 2023.
+pib_corrente_crescimento_1y_lag_1y,Taxa de crescimento do PIB municipal corrente observada no ano anterior da série.
+pib_corrente_aceleracao_crescimento_1y,Diferença entre o crescimento do PIB municipal corrente no ano atual e o crescimento observado no ano anterior; mede aceleração ou desaceleração econômica.
+pib_corrente_media_movel_3y,Média móvel de 3 anos do PIB municipal corrente na série histórica.
+pib_corrente_desvio_movel_3y,Desvio-padrão móvel de 3 anos do PIB municipal corrente na série histórica.
+pib_corrente_coef_var_movel_3y,"Coeficiente de variação móvel de 3 anos do PIB municipal corrente, calculado como desvio móvel dividido pela média móvel."
+pib_corrente_indice_base_primeiro_ano,"Índice do PIB municipal corrente em relação ao primeiro ano disponível da série do município, com base 100 no primeiro ano."
+pib_corrente_crescimento_acumulado_primeiro_ano,Crescimento acumulado do PIB municipal corrente desde o primeiro ano disponível da série do município.
+pib_corrente_rank_ano,Ranking do município no PIB municipal corrente dentro do mesmo ano da série; valores menores indicam maior PIB.
+pib_corrente_percentil_ano,Percentil do município no PIB municipal corrente dentro do mesmo ano da série.
+pib_corrente_share_total_ano,Participação do PIB municipal corrente do município no total de PIB dos municípios no mesmo ano da série.
+vab_agropecuaria,"Valor Adicionado Bruto da agropecuária do município, referente ao PIB Setorial de 2021."
+vab_industria,"Valor Adicionado Bruto da indústria do município, referente ao PIB Setorial de 2021."
+vab_servicos,"Valor Adicionado Bruto dos serviços privados e demais serviços do município, referente ao PIB Setorial de 2021."
+vab_adm_publica,"Valor Adicionado Bruto da administração pública, defesa, educação e saúde públicas e seguridade social do município, referente ao PIB Setorial de 2021."
+impostos_liquidos,"Impostos líquidos de subsídios sobre produtos do município, referentes ao PIB Setorial de 2021."
+vab_agropecuaria_lag_1y,"VAB da agropecuária defasado em 1 ano na série setorial; para referência 2021, corresponde a 2020."
+vab_agropecuaria_lag_2y,"VAB da agropecuária defasado em 2 anos na série setorial; para referência 2021, corresponde a 2019."
+vab_agropecuaria_var_abs_1y,"Variação absoluta do VAB da agropecuária em relação ao ano anterior, calculada como valor de 2021 menos valor de 2020."
+vab_agropecuaria_var_abs_2y,"Variação absoluta do VAB da agropecuária em relação a dois anos antes, calculada como valor de 2021 menos valor de 2019."
+vab_agropecuaria_crescimento_1y,"Taxa de crescimento do VAB da agropecuária em relação ao ano anterior, calculada como valor de 2021 / valor de 2020 - 1."
+vab_agropecuaria_crescimento_2y_acumulado,"Crescimento acumulado do VAB da agropecuária em dois anos, calculado como valor de 2021 / valor de 2019 - 1."
+vab_agropecuaria_cagr_2y,Taxa média anual composta de crescimento do VAB da agropecuária entre 2019 e 2021.
+log_vab_agropecuaria,Logaritmo natural do VAB da agropecuária de referência 2021.
+vab_agropecuaria_delta_log_1y,Variação logarítmica do VAB da agropecuária em relação ao ano anterior; aproxima a taxa de crescimento contínua entre 2020 e 2021.
+vab_agropecuaria_crescimento_1y_lag_1y,Taxa de crescimento do VAB da agropecuária observada no ano anterior da série.
+vab_agropecuaria_aceleracao_crescimento_1y,Diferença entre o crescimento atual e o crescimento anterior do VAB da agropecuária; mede aceleração ou desaceleração do setor.
+vab_agropecuaria_rank_ano,Ranking do município no VAB da agropecuária dentro do mesmo ano da série; valores menores indicam maior VAB agropecuário.
+vab_agropecuaria_percentil_ano,Percentil do município no VAB da agropecuária dentro do mesmo ano da série.
+vab_agropecuaria_share_total_ano,Participação do VAB da agropecuária do município no total municipal agregado da agropecuária no mesmo ano da série.
+vab_industria_lag_1y,"VAB da indústria defasado em 1 ano na série setorial; para referência 2021, corresponde a 2020."
+vab_industria_lag_2y,"VAB da indústria defasado em 2 anos na série setorial; para referência 2021, corresponde a 2019."
+vab_industria_var_abs_1y,"Variação absoluta do VAB da indústria em relação ao ano anterior, calculada como valor de 2021 menos valor de 2020."
+vab_industria_var_abs_2y,"Variação absoluta do VAB da indústria em relação a dois anos antes, calculada como valor de 2021 menos valor de 2019."
+vab_industria_crescimento_1y,"Taxa de crescimento do VAB da indústria em relação ao ano anterior, calculada como valor de 2021 / valor de 2020 - 1."
+vab_industria_crescimento_2y_acumulado,"Crescimento acumulado do VAB da indústria em dois anos, calculado como valor de 2021 / valor de 2019 - 1."
+vab_industria_cagr_2y,Taxa média anual composta de crescimento do VAB da indústria entre 2019 e 2021.
+log_vab_industria,Logaritmo natural do VAB da indústria de referência 2021.
+vab_industria_delta_log_1y,Variação logarítmica do VAB da indústria em relação ao ano anterior; aproxima a taxa de crescimento contínua entre 2020 e 2021.
+vab_industria_crescimento_1y_lag_1y,Taxa de crescimento do VAB da indústria observada no ano anterior da série.
+vab_industria_aceleracao_crescimento_1y,Diferença entre o crescimento atual e o crescimento anterior do VAB da indústria; mede aceleração ou desaceleração do setor.
+vab_industria_rank_ano,Ranking do município no VAB da indústria dentro do mesmo ano da série; valores menores indicam maior VAB industrial.
+vab_industria_percentil_ano,Percentil do município no VAB da indústria dentro do mesmo ano da série.
+vab_industria_share_total_ano,Participação do VAB da indústria do município no total municipal agregado da indústria no mesmo ano da série.
+vab_servicos_lag_1y,"VAB dos serviços defasado em 1 ano na série setorial; para referência 2021, corresponde a 2020."
+vab_servicos_lag_2y,"VAB dos serviços defasado em 2 anos na série setorial; para referência 2021, corresponde a 2019."
+vab_servicos_var_abs_1y,"Variação absoluta do VAB dos serviços em relação ao ano anterior, calculada como valor de 2021 menos valor de 2020."
+vab_servicos_var_abs_2y,"Variação absoluta do VAB dos serviços em relação a dois anos antes, calculada como valor de 2021 menos valor de 2019."
+vab_servicos_crescimento_1y,"Taxa de crescimento do VAB dos serviços em relação ao ano anterior, calculada como valor de 2021 / valor de 2020 - 1."
+vab_servicos_crescimento_2y_acumulado,"Crescimento acumulado do VAB dos serviços em dois anos, calculado como valor de 2021 / valor de 2019 - 1."
+vab_servicos_cagr_2y,Taxa média anual composta de crescimento do VAB dos serviços entre 2019 e 2021.
+log_vab_servicos,Logaritmo natural do VAB dos serviços de referência 2021.
+vab_servicos_delta_log_1y,Variação logarítmica do VAB dos serviços em relação ao ano anterior; aproxima a taxa de crescimento contínua entre 2020 e 2021.
+vab_servicos_crescimento_1y_lag_1y,Taxa de crescimento do VAB dos serviços observada no ano anterior da série.
+vab_servicos_aceleracao_crescimento_1y,Diferença entre o crescimento atual e o crescimento anterior do VAB dos serviços; mede aceleração ou desaceleração do setor.
+vab_servicos_rank_ano,Ranking do município no VAB dos serviços dentro do mesmo ano da série; valores menores indicam maior VAB de serviços.
+vab_servicos_percentil_ano,Percentil do município no VAB dos serviços dentro do mesmo ano da série.
+vab_servicos_share_total_ano,Participação do VAB dos serviços do município no total municipal agregado dos serviços no mesmo ano da série.
+vab_adm_publica_lag_1y,"VAB da administração pública defasado em 1 ano na série setorial; para referência 2021, corresponde a 2020."
+vab_adm_publica_lag_2y,"VAB da administração pública defasado em 2 anos na série setorial; para referência 2021, corresponde a 2019."
+vab_adm_publica_var_abs_1y,"Variação absoluta do VAB da administração pública em relação ao ano anterior, calculada como valor de 2021 menos valor de 2020."
+vab_adm_publica_var_abs_2y,"Variação absoluta do VAB da administração pública em relação a dois anos antes, calculada como valor de 2021 menos valor de 2019."
+vab_adm_publica_crescimento_1y,"Taxa de crescimento do VAB da administração pública em relação ao ano anterior, calculada como valor de 2021 / valor de 2020 - 1."
+vab_adm_publica_crescimento_2y_acumulado,"Crescimento acumulado do VAB da administração pública em dois anos, calculado como valor de 2021 / valor de 2019 - 1."
+vab_adm_publica_cagr_2y,Taxa média anual composta de crescimento do VAB da administração pública entre 2019 e 2021.
+log_vab_adm_publica,Logaritmo natural do VAB da administração pública de referência 2021.
+vab_adm_publica_delta_log_1y,Variação logarítmica do VAB da administração pública em relação ao ano anterior; aproxima a taxa de crescimento contínua entre 2020 e 2021.
+vab_adm_publica_crescimento_1y_lag_1y,Taxa de crescimento do VAB da administração pública observada no ano anterior da série.
+vab_adm_publica_aceleracao_crescimento_1y,Diferença entre o crescimento atual e o crescimento anterior do VAB da administração pública; mede aceleração ou desaceleração do setor.
+vab_adm_publica_rank_ano,Ranking do município no VAB da administração pública dentro do mesmo ano da série; valores menores indicam maior VAB de administração pública.
+vab_adm_publica_percentil_ano,Percentil do município no VAB da administração pública dentro do mesmo ano da série.
+vab_adm_publica_share_total_ano,Participação do VAB da administração pública do município no total municipal agregado da administração pública no mesmo ano da série.
+impostos_liquidos_lag_1y,"Impostos líquidos de subsídios defasados em 1 ano na série setorial; para referência 2021, corresponde a 2020."
+impostos_liquidos_lag_2y,"Impostos líquidos de subsídios defasados em 2 anos na série setorial; para referência 2021, corresponde a 2019."
+impostos_liquidos_var_abs_1y,"Variação absoluta dos impostos líquidos em relação ao ano anterior, calculada como valor de 2021 menos valor de 2020."
+impostos_liquidos_var_abs_2y,"Variação absoluta dos impostos líquidos em relação a dois anos antes, calculada como valor de 2021 menos valor de 2019."
+impostos_liquidos_crescimento_1y,"Taxa de crescimento dos impostos líquidos em relação ao ano anterior, calculada como valor de 2021 / valor de 2020 - 1."
+impostos_liquidos_crescimento_2y_acumulado,"Crescimento acumulado dos impostos líquidos em dois anos, calculado como valor de 2021 / valor de 2019 - 1."
+impostos_liquidos_cagr_2y,Taxa média anual composta de crescimento dos impostos líquidos entre 2019 e 2021.
+log_impostos_liquidos,Logaritmo natural dos impostos líquidos de referência 2021.
+impostos_liquidos_delta_log_1y,Variação logarítmica dos impostos líquidos em relação ao ano anterior; aproxima a taxa de crescimento contínua entre 2020 e 2021.
+impostos_liquidos_crescimento_1y_lag_1y,Taxa de crescimento dos impostos líquidos observada no ano anterior da série.
+impostos_liquidos_aceleracao_crescimento_1y,Diferença entre o crescimento atual e o crescimento anterior dos impostos líquidos; mede aceleração ou desaceleração da arrecadação associada a produtos.
+impostos_liquidos_rank_ano,Ranking do município em impostos líquidos dentro do mesmo ano da série; valores menores indicam maior valor de impostos líquidos.
+impostos_liquidos_percentil_ano,Percentil do município em impostos líquidos dentro do mesmo ano da série.
+impostos_liquidos_share_total_ano,Participação dos impostos líquidos do município no total municipal agregado de impostos líquidos no mesmo ano da série.
+municipio_norm,"Nome do município normalizado para facilitar joins, comparações textuais e auditorias."
+codigo_uf,Código IBGE da Unidade da Federação.
+codigo_regiao,Código IBGE da grande região brasileira.
+codigo_regiao_imediata,Código IBGE da Região Geográfica Imediata.
+codigo_regiao_intermediaria,Código IBGE da Região Geográfica Intermediária.
+log_populacao_censo_2022,Logaritmo natural da população residente do município no Censo 2022.
+pib_per_capita_aprox,PIB municipal corrente de referência 2023 dividido pela população do Censo 2022; proxy aproximada de PIB per capita.
+vab_total_setorial,"Soma dos VABs setoriais de agropecuária, indústria, serviços e administração pública, referente ao PIB Setorial de 2021."
+share_vab_agropecuaria,Participação do VAB da agropecuária no VAB total setorial do município em 2021.
+share_vab_industria,Participação do VAB da indústria no VAB total setorial do município em 2021.
+share_vab_servicos,Participação do VAB dos serviços no VAB total setorial do município em 2021.
+share_vab_adm_publica,Participação do VAB da administração pública no VAB total setorial do município em 2021.
+vab_servicos_total,"Soma do VAB de serviços e do VAB da administração pública, representando o agregado ampliado de serviços em 2021."
+share_servicos_total,"Participação do agregado ampliado de serviços, serviços mais administração pública, no VAB total setorial do município em 2021."

@@ -1,0 +1,102 @@
+nome_variavel,descricao
+codigo_ibge,"Código IBGE de 7 dígitos do município, utilizado como chave principal para cruzamento com outras bases municipais."
+ano,Ano de referência da observação.
+codigo_ibge_6,"Código IBGE de 6 dígitos do município, utilizado em algumas bases antigas ou auxiliares."
+regiao_origem,Código da grande região brasileira conforme a base original do IVS/Ipea.
+nome_regiao_origem,Nome da grande região brasileira conforme a base original do IVS/Ipea.
+uf_origem,Código da Unidade da Federação conforme a base original.
+nome_uf_origem,Nome da Unidade da Federação conforme a base original.
+rm_origem,"Código da região metropolitana ou arranjo regional, quando disponível na base original."
+nome_rm_origem,"Nome da região metropolitana ou arranjo regional, quando disponível na base original."
+nome_municipio_uf_origem,Nome do município com sigla da UF conforme a base original.
+udh_origem,"Código da Unidade de Desenvolvimento Humano, quando disponível. Para análise municipal agregada, geralmente representa a unidade total do município."
+nome_udh_origem,"Nome da Unidade de Desenvolvimento Humano, quando disponível."
+label_cor_origem,"Recorte de raça/cor da observação na base original. Para análise municipal agregada, deve estar como Total Cor."
+label_sexo_origem,"Recorte de sexo da observação na base original. Para análise municipal agregada, deve estar como Total Sexo."
+label_sit_dom_origem,"Recorte de situação de domicílio da observação na base original. Para análise municipal agregada, deve estar como Total Situação de Domicílio."
+prosp_soc,Classificação de prosperidade social do município segundo a metodologia do IVS/Ipea.
+populacao,População total do município no ano de referência.
+vulner15a24,População vulnerável na faixa de 15 a 24 anos.
+mchefe_fmenor,"Número de mães chefes de família sem ensino fundamental completo e com filho menor de idade, conforme definição da base."
+vulner_dia,"População ou domicílios em condição de vulnerabilidade associada à renda diária, conforme definição da base IVS/Ipea."
+dom_vulner_idoso,Número de domicílios vulneráveis com presença de idosos ou dependência de idosos.
+pop0a1,População de 0 a 1 ano.
+pop1a3,População de 1 a 3 anos.
+pop4,População de 4 anos.
+pop5,População de 5 anos.
+pop6,População de 6 anos.
+pop6a10,População de 6 a 10 anos.
+pop6a17,População de 6 a 17 anos.
+pop11a13,População de 11 a 13 anos.
+pop11a14,População de 11 a 14 anos.
+pop12a14,População de 12 a 14 anos.
+pop15m,População de 15 anos ou mais.
+pop15a17,População de 15 a 17 anos.
+pop15a24,População de 15 a 24 anos.
+pop16a18,População de 16 a 18 anos.
+pop18m,População de 18 anos ou mais.
+pop18a20,População de 18 a 20 anos.
+pop18a24,População de 18 a 24 anos.
+pop19a21,População de 19 a 21 anos.
+pop25m,População de 25 anos ou mais.
+pop65m,População de 65 anos ou mais.
+pea10m,População economicamente ativa de 10 anos ou mais.
+pea10a14,População economicamente ativa de 10 a 14 anos.
+pea15a17,População economicamente ativa de 15 a 17 anos.
+pea18m,População economicamente ativa de 18 anos ou mais.
+id,"Identificador interno da observação na base original, quando disponível."
+ivs,"Índice de Vulnerabilidade Social geral. Quanto maior o valor, maior a vulnerabilidade social."
+ivs_infraestrutura_urbana,"Componente do IVS relacionado à infraestrutura urbana, como acesso a água, esgoto, coleta de lixo, energia e condições domiciliares."
+ivs_capital_humano,"Componente do IVS relacionado a capital humano, incluindo educação, saúde, mortalidade, maternidade precoce e frequência escolar."
+ivs_renda_e_trabalho,"Componente do IVS relacionado à renda e trabalho, incluindo vulnerabilidade de renda, desocupação, informalidade e dependência econômica."
+idhm,"Índice de Desenvolvimento Humano Municipal geral. Quanto maior o valor, maior o desenvolvimento humano."
+idhm_long,Componente de longevidade do IDHM.
+idhm_educ,Componente de educação do IDHM.
+idhm_renda,Componente de renda do IDHM.
+idhm_educ_sub_esc,Subíndice de escolaridade do componente de educação do IDHM.
+idhm_educ_sub_freq,Subíndice de frequência escolar do componente de educação do IDHM.
+t_sem_agua_esgoto,Percentual da população ou dos domicílios sem acesso adequado a água e esgotamento sanitário.
+t_sem_lixo,Percentual da população ou dos domicílios sem coleta adequada de lixo.
+t_vulner_mais1h,"Percentual da população vulnerável que gasta mais de uma hora no deslocamento até o trabalho, conforme definição da base."
+t_mort1,Taxa de mortalidade infantil até 1 ano de idade.
+t_c0a5_fora,Percentual de crianças de 0 a 5 anos fora da escola.
+t_c6a14_fora,Percentual de crianças de 6 a 14 anos fora da escola.
+t_m10a17_filho,Percentual de mulheres de 10 a 17 anos que tiveram filhos.
+t_mchefe_fundin_fmenor,Percentual de mães chefes de família sem ensino fundamental completo e com filho menor de idade.
+t_analf_15m,Percentual da população de 15 anos ou mais analfabeta.
+t_cdom_fundin,Percentual de pessoas em domicílios cujo responsável tem ensino fundamental incompleto.
+t_p15a24_nada,"Percentual da população de 15 a 24 anos que não estuda, não trabalha e possui baixa renda ou condição de vulnerabilidade, conforme definição da base."
+t_vulner,Percentual da população em situação de vulnerabilidade à pobreza.
+t_desocup18m,Taxa de desocupação da população de 18 anos ou mais.
+t_p18m_fundin_informal,Percentual da população de 18 anos ou mais sem ensino fundamental completo e em ocupação informal.
+t_vulner_depende_idosos,Percentual de pessoas vulneráveis e dependentes de idosos ou em domicílios com dependência de idosos.
+t_atividade10a14,Taxa de atividade da população de 10 a 14 anos.
+espvida,Expectativa de vida ao nascer.
+t_pop18m_fundc,Percentual da população de 18 anos ou mais com ensino fundamental completo.
+t_pop5a6_escola,Percentual da população de 5 a 6 anos frequentando escola.
+t_pop11a13_ffun,Percentual da população de 11 a 13 anos frequentando os anos finais do ensino fundamental ou com essa etapa adequada à idade.
+t_pop15a17_fundc,Percentual da população de 15 a 17 anos com ensino fundamental completo.
+t_pop18a20_medioc,Percentual da população de 18 a 20 anos com ensino médio completo.
+renda_per_capita,Renda domiciliar per capita média do município no ano de referência.
+t_fmor5,Taxa de mortalidade de crianças menores de 5 anos.
+t_razdep,Razão de dependência demográfica.
+t_fectot,Taxa de fecundidade total.
+t_env,Taxa de envelhecimento da população.
+t_eletrica,Percentual da população ou dos domicílios com acesso à energia elétrica.
+t_densidadem2,"Percentual da população ou dos domicílios em condição de adensamento domiciliar, geralmente medido por densidade de moradores por dormitório."
+t_analf_18m,Percentual da população de 18 anos ou mais analfabeta.
+t_analf_25m,Percentual da população de 25 anos ou mais analfabeta.
+rdpc_def_vulner,Renda domiciliar per capita média da população vulnerável ou em condição definida como vulnerável pela metodologia da base.
+t_renda_trab,Percentual da renda proveniente do trabalho na renda total.
+i_gini,"Índice de Gini da renda, utilizado para medir desigualdade. Quanto maior o valor, maior a desigualdade."
+t_carteira_18m,Percentual da população ocupada de 18 anos ou mais com carteira de trabalho assinada.
+t_scarteira_18m,Percentual da população ocupada de 18 anos ou mais sem carteira de trabalho assinada.
+t_setorpublico_18m,Percentual da população ocupada de 18 anos ou mais no setor público.
+t_contapropria_18m,Percentual da população ocupada de 18 anos ou mais trabalhando por conta própria.
+t_empregador_18m,Percentual da população ocupada de 18 anos ou mais na condição de empregador.
+t_formal_18m,Percentual da população ocupada de 18 anos ou mais em ocupações formais.
+t_fundc_ocup18m,Percentual da população ocupada de 18 anos ou mais com ensino fundamental completo.
+t_medioc_ocup18m,Percentual da população ocupada de 18 anos ou mais com ensino médio completo.
+t_supec_ocup18m,Percentual da população ocupada de 18 anos ou mais com ensino superior completo.
+t_renda_todos_trabalhos,Renda média de todos os trabalhos da população ocupada.
+t_nremunerado_18m,Percentual da população ocupada de 18 anos ou mais em trabalho não remunerado.

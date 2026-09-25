@@ -1,0 +1,15 @@
+# Local extracts and derived tables. Do not commit.
+data/
+
+# Python and notebook clutter
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+
+# OS files
+.DS_Store
