@@ -1,5 +1,10 @@
 # Local extracts and derived tables. Do not commit.
-data/
+data/*
+!data/raw/
+data/raw/*
+!data/raw/ibge/
+data/raw/ibge/*
+!data/raw/ibge/Municipios_Defrontantes_com_o_Mar_2024.xls
 
 # Python and notebook clutter
 .ipynb_checkpoints/

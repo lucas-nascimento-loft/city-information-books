@@ -126,3 +126,16 @@ share_vab_servicos,Participação do VAB dos serviços no VAB total setorial do 
 share_vab_adm_publica,Participação do VAB da administração pública no VAB total setorial do município em 2021.
 vab_servicos_total,"Soma do VAB de serviços e do VAB da administração pública, representando o agregado ampliado de serviços em 2021."
 share_servicos_total,"Participação do agregado ampliado de serviços, serviços mais administração pública, no VAB total setorial do município em 2021."
+populacao_rural_2022,População residente em situação rural no Censo Demográfico 2022.
+populacao_urbana_2022,População residente em situação urbana no Censo Demográfico 2022.
+indice_urbanizacao_2022,"Participação da população urbana na população residente total do Censo 2022, calculada como populacao_urbana_2022 / populacao_total_censo_2022."
+indice_ruralizacao_2022,"Participação da população rural na população residente total do Censo 2022, calculada como populacao_rural_2022 / populacao_total_censo_2022."
+flag_litoranea_ibge,Indicador de município defrontante com o mar segundo a lista do IBGE. Vale 1 quando o município integra a lista e 0 caso contrário.
+flag_capital_uf,Indicador de capital de Unidade da Federação. Vale 1 para a capital e 0 para os demais municípios.
+flag_regiao_metropolitana_ibge,Indicador de pertencimento a alguma região metropolitana oficial do IBGE. Vale 1 quando o município integra ao menos uma região metropolitana e 0 caso contrário.
+flag_regiao_metropolitana_relevante,"Indicador de pertencimento a uma região metropolitana relevante. A região é relevante quando contém capital, ou o município polo tem pelo menos 500 mil habitantes, ou a população total da região é de pelo menos 1 milhão de habitantes."
+qtd_municipios_rm,Quantidade de municípios da maior região metropolitana associada ao município. Zero quando o município não integra região metropolitana.
+populacao_total_rm,"População total da região metropolitana associada ao município, usando a população do Censo 2022. Zero quando o município não integra região metropolitana."
+flag_rm_contem_capital,Indicador de que a região metropolitana associada contém a capital da UF. Vale 1 quando contém e 0 caso contrário.
+flag_rm_polo_grande,Indicador de que o município polo da região metropolitana associada tem pelo menos 500 mil habitantes.
+flag_rm_pop_total_grande,Indicador de que a população total da região metropolitana associada é de pelo menos 1 milhão de habitantes.
