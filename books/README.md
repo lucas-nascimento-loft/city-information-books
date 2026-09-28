@@ -7,4 +7,4 @@
 | `03_rais_2022` | Formal employment, RAIS 2022 | 14 |
 | `04_base_final` | Join of the three books, then comparison with `df_final_abt.parquet` | — |
 
-See the repository README for inputs, outputs and what must stay out of Git.
+See the repository README for the Google Drive download of `data/`, inputs, outputs and what must stay out of Git.
